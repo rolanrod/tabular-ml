@@ -1,0 +1,9 @@
+[package]
+name = "nametbd"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ndarray = "0.16"
+ndarray-rand = "0.15"
+rand = "0.8"
