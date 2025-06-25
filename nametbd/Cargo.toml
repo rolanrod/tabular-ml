@@ -7,3 +7,11 @@ edition = "2024"
 ndarray = "0.16"
 ndarray-rand = "0.15"
 rand = "0.8"
+
+[[example]]
+name = "simple_example"
+path = "examples/simple_example.rs"
+
+[[example]]
+name = "linear_regression_example"
+path = "examples/linear_regression_example.rs"
