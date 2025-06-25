@@ -15,3 +15,11 @@ path = "examples/simple_example.rs"
 [[example]]
 name = "linear_regression_example"
 path = "examples/linear_regression_example.rs"
+
+[[example]]
+name = "logistic_regression_example"
+path = "examples/logistic_regression_example.rs"
+
+[[example]]
+name = "regularized_regression_example"
+path = "examples/regularized_regression_example.rs"

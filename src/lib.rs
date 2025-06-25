@@ -7,7 +7,7 @@ pub mod metrics;
 
 pub use dataset::Dataset;
 pub use preprocessing::StandardScaler;
-pub use linear_model::LinearRegression;
+pub use linear_model::{LinearRegression, LogisticRegression, Ridge, Lasso, ElasticNet};
 
 pub type Vector = Array1<f64>;
 pub type Matrix = Array2<f64>;
