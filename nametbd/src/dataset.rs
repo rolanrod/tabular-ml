@@ -36,10 +36,10 @@ impl Dataset {
         let n_train = n_samples - n_test;
 
         let train_features = self.features.slice(s![..n_train, ..]).to_owned();
-        let train_labels = self.labels.slice(s![..n_train, ..]).to_owned();
+        let train_labels = self.labels.slice(s![..n_train]).to_owned();
 
-        let test_features = self.features.slice(s![n_test.., ..]).to_owned();
-        let test_labels = self.labels.slice(s![n_test.., ..]).to_owned();
+        let test_features = self.features.slice(s![n_train.., ..]).to_owned();
+        let test_labels = self.labels.slice(s![n_train..]).to_owned();
 
         let train_dataset = Dataset::new(train_features, train_labels)?;
         let test_dataset = Dataset::new(test_features, test_labels)?;
@@ -66,7 +66,7 @@ mod tests {
     
     #[test]
     fn test_train_test_split() {
-        let features = Array2::zeros((100, 5));
+        let features = Matrix::zeros((100, 5));
         let targets = Vector::zeros(100);
         let dataset = Dataset::new(features, targets).unwrap();
         

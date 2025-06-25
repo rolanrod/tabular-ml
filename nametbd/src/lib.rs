@@ -5,6 +5,10 @@ pub mod preprocessing;
 pub mod linear_model;
 pub mod metrics;
 
+pub use dataset::Dataset;
+pub use preprocessing::StandardScaler;
+pub use linear_model::LinearRegression;
+
 pub type Vector = Array1<f64>;
 pub type Matrix = Array2<f64>;
 
