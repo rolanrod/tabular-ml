@@ -31,3 +31,7 @@ path = "examples/svm_example.rs"
 [[example]]
 name = "dimensionality_reduction_example"
 path = "examples/dimensionality_reduction_example.rs"
+
+[[example]]
+name = "clustering_example"
+path = "examples/clustering_example.rs"
