@@ -1,4 +1,5 @@
 use crate::{Matrix, Vector};
+use ndarray::Dimension;
 
 #[derive(Clone, Debug)]
 pub struct Ridge {

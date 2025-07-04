@@ -38,9 +38,11 @@ mod logistic_regression;
 mod ridge;
 mod lasso;
 mod elastic_net;
+mod svm;
 
 pub use linear_regression::LinearRegression;
 pub use logistic_regression::LogisticRegression;
 pub use ridge::Ridge;
 pub use lasso::Lasso;
 pub use elastic_net::ElasticNet;
+pub use svm::{SVC, Kernel};

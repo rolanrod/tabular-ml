@@ -25,3 +25,31 @@ Rust uses modules to organize code within a crate. Modules help group related fu
 4. Model training/prediction interfaces
 5. Evaluation metrics
 
+
+Tree-based Models:
+- Decision Trees (classification & regression)
+- Random Forest
+- Gradient Boosting
+
+Clustering:
+- K-Means
+- Hierarchical Clustering
+- DBSCAN
+
+Dimensionality Reduction:
+- PCA (Principal Component Analysis)
+- LDA (Linear Discriminant Analysis)
+
+Naive Bayes:
+- Gaussian Naive Bayes
+- Multinomial Naive Bayes
+
+Ensemble Methods:
+- Bagging
+- AdaBoost
+- Voting Classifiers
+
+Model Selection & Validation:
+- Cross-validation
+- Grid search
+- Train/validation/test splits

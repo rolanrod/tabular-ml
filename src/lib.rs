@@ -4,10 +4,12 @@ pub mod dataset;
 pub mod preprocessing;
 pub mod linear_model;
 pub mod metrics;
+pub mod decomposition;
 
 pub use dataset::Dataset;
 pub use preprocessing::StandardScaler;
-pub use linear_model::{LinearRegression, LogisticRegression, Ridge, Lasso, ElasticNet};
+pub use linear_model::{LinearRegression, LogisticRegression, Ridge, Lasso, ElasticNet, SVC, Kernel};
+pub use decomposition::{PCA, LDA, TruncatedSVD};
 
 pub type Vector = Array1<f64>;
 pub type Matrix = Array2<f64>;

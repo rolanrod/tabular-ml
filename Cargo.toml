@@ -23,3 +23,11 @@ path = "examples/logistic_regression_example.rs"
 [[example]]
 name = "regularized_regression_example"
 path = "examples/regularized_regression_example.rs"
+
+[[example]]
+name = "svm_example"
+path = "examples/svm_example.rs"
+
+[[example]]
+name = "dimensionality_reduction_example"
+path = "examples/dimensionality_reduction_example.rs"
